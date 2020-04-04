@@ -19,7 +19,7 @@ Page({this.viewModel,this.percentVisible=1.0});
   @override
   Widget build(BuildContext context) {
     return new Container(
-      width: double.INFINITY,
+      width: double.infinity,
       color: viewModel.color,
       child: new Opacity(
         opacity: percentVisible,
